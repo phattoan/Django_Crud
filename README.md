@@ -10,7 +10,7 @@ Các tính năng chính
 8 . Nhập CSV
 9 . Xuất CSV
 #Step for Set Up
- 1. git clone https://github.com/gowthamand/django-crud-ajax-login-register-fileupload
+ 1. git clone https://github.com/phattoan/Django_Crud.git
 
  2. Change settings.py MYSQL CONFIGURATIONS (name, user, password)
 
