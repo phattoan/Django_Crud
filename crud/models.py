@@ -42,4 +42,11 @@ class Employee(models.Model):
     Start_Date = models.DateTimeField("%d/%m/%y")
     Salary = models.IntegerField(default=0)
     
+class Employeadmin(models.Model):
+    Name = models.CharField(max_length=255, blank=True)
+    Position = models.CharField(max_length=50, blank=True)
+    Office = models.CharField(max_length=50, blank=True)
+    Age = models.IntegerField(default=0)
+    Start_Date = models.DateTimeField("%d/%m/%y")
+    Salary = models.IntegerField(default=0)
     
